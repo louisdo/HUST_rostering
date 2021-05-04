@@ -1,8 +1,0 @@
-mỗi lần lặp
-chọn random 2 số i, d (uniform)
-
-với mỗi nhân viên i trong ngày d, tính tất cả các giá trị f(i, j, d), loại bỏ các giá trị = -1, normalize các giá trị còn lại rồi random sample j dựa theo các giá trị trên
-
-kiểm tra trạng thái dữ liệu, nếu đúng constraint thì tính điểm, nếu điểm hiện tại là tốt nhất thì lưu lại schedule
-
-lặp lại k lần (k định nghĩa trước)
