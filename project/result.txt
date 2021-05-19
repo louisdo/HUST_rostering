@@ -1,0 +1,23 @@
+MIPS
+N =  500
+D =  100
+alpha =  97
+beta =  115
+optimal value =  20.0
+elapsed time =  871.271692276001
+
+N =  500
+D =  50
+alpha =  97
+beta =  115
+optimal value =  10.0
+elapsed time =  198.29383087158203
+
+N =  500
+D =  20
+alpha =  97
+beta =  115
+optimal value =  4.0
+elapsed time =  28.2579288482666
+
+CP
