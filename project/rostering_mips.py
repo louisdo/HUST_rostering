@@ -42,7 +42,7 @@ for day in range(D):
             c.SetCoefficient(x[person][day][shift], 1)
 
 for day in range(D):
-    for shift in range(4):
+    for shift in range(5):
         c = solver.Constraint(alpha, beta)
         for person in range(N):
             c.SetCoefficient(x[person][day][shift], 1)

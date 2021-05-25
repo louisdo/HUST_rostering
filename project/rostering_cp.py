@@ -38,7 +38,7 @@ for day in range(D):
         model.Add(sum(x[person][day][shift] for shift in range(5)) == 1)
 
 for day in range(D):
-    for shift in range(4):
+    for shift in range(5):
         model.Add(sum(x[person][day][shift] for person in range(N)) >= alpha)
         model.Add(sum(x[person][day][shift] for person in range(N)) <= beta)
 
